@@ -2,7 +2,7 @@
 
 Prerequisites:
 - Java 8
-- Maven
+- Maven or Gradle
 - Latest FireFox browser
 - GeckoDriver - found in your system path (https://github.com/mozilla/geckodriver/releases)
 
