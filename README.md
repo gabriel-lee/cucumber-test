@@ -7,4 +7,5 @@ Prerequisites:
 - GeckoDriver - found in your system path (https://github.com/mozilla/geckodriver/releases)
 
 To run:
-mvn test
+Maven - mvn test
+Gradle - gradle cucumber
