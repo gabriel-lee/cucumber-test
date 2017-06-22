@@ -29,6 +29,6 @@ The following are recommendations on how I forsee Cucumber can be used for Jarvi
 
 * Leverage the Background task to make sure that each test has the right data in place. Because many pieces in Jarvis depends on existing data (i.e. Projects require a client), the Background task can check if the environment is ready for each test scenario.
 * Create several Steps java classes. 
-** One class should contain very generic steps, such as "I click on button with text ${text}". This step can be reused in various test scenarios.
-** Each feature should have its own verification step class. This class will define steps that verify the test scenarios ran.
-** Each feature may have its own custom step class. This class will contain step definitions unique to its respective feature.
+  * One class should contain very generic steps, such as "I click on button with text ${text}". This step can be reused in various test scenarios.
+  * Each feature should have its own verification step class. This class will define steps that verify the test scenarios ran.
+  * Each feature may have its own custom step class. This class will contain step definitions unique to its respective feature.
