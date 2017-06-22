@@ -22,6 +22,8 @@ Cucumber tests are written in readable form in .feature files. There are three p
 
 Each behavior is defined through Java code located in specific Steps classes.
 
+Cucumber leverages Selenium Web Driver to run its tests. The steps definition are using Selenium's API for each action.
+
 ## Quick thoughts
 The following are recommendations on how I forsee Cucumber can be used for Jarvis. However, many of these recommendations have not been fully tested yet. (Gabe)
 
